@@ -1,0 +1,31 @@
+{
+  "name": "pugo",
+  "version": "1.0.0",
+  "description": "test uchun pug",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoburF/pug.git"
+  },
+  "author": "Bobur Abdullayev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoburF/pug/issues"
+  },
+  "homepage": "https://github.com/BoburF/pug#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "joi": "^17.6.0",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

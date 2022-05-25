@@ -1,0 +1,2 @@
+# pug
+test uchun pug

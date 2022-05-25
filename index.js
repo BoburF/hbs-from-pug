@@ -27,6 +27,13 @@ app.get('/contact', (req,res)=>{
     res.render('contact.pug', {title : 'Header'})
 })
 
+app.post('/sign', (req,res)=>{
+    let name = req.body.name
+    let password = req.body.password
+    
+    res.render('sign.pug', {title : 'Header', name, password})
+})
+
 
 try {
     const port = normalizePort(process.env.PORT || 5000)
